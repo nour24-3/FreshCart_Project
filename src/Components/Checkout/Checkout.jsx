@@ -13,7 +13,7 @@ export default function Checkout() {
       city: "",
     },
     onSubmit: () =>
-      handleCheckout(cartId, `https://fresh-cart-project1.vercel.app`),
+      handleCheckout(cartId, `https://fresh-cart-project1.vercel.app/#`),
   });
 
   async function handleCheckout(cartId, url) {
