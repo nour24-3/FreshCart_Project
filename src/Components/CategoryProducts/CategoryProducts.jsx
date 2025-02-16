@@ -1,7 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import axios from "axios";
-import useProducts from "../../Hooks/useProducts";
 import React from "react";
 import { CartContext } from "../../Context/CartContext";
 import toast from "react-hot-toast";

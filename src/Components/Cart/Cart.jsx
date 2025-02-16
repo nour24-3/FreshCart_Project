@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from "react";
-import style from "./Cart.module.css";
-import { UserContext } from "../../Context/UserContext";
 import { CartContext } from "../../Context/CartContext";
 import { useContext } from "react";
 import toast from "react-hot-toast";
-import { Toaster } from "react-hot-toast";
 import { Link } from "react-router-dom";
-import Products from "../Products/Products";
 
 export default function Cart() {
   let {

@@ -1,7 +1,5 @@
 import React from "react";
-import style from "./MainSlider.module.css";
 import Slider from "react-slick";
-import img1 from "../../assets/slider-image-1.jpeg";
 import img2 from "../../assets/slider-image-2.jpeg";
 import img3 from "../../assets/slider-image-3.jpeg";
 import img4 from "../../assets/grocery-banner.png";

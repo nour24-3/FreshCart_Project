@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import style from "./Categories.module.css"
 import { Link } from "react-router-dom";
 import axios from "axios";
 import React from "react";

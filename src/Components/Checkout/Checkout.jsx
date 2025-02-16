@@ -1,7 +1,5 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { useFormik } from "formik";
-import axios from "axios";
-import { UserContext } from "../../Context/UserContext";
 import { CartContext } from "../../Context/CartContext";
 
 export default function Checkout() {

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import style from "./Wishlist.module.css";
 import { useContext } from "react";
 import { WishlistContext } from "../../Context/WishlistContext";
 import toast from "react-hot-toast";

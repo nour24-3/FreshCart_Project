@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import style from "./VerifyEmail.module";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import axios from "axios";

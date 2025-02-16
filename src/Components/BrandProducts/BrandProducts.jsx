@@ -1,7 +1,6 @@
 import { useEffect, useState, useContext } from "react";
 import { Link, useParams } from "react-router-dom";
 import axios from "axios";
-import style from "./BrandProducts.module.css";
 import React from "react";
 import { CartContext } from "../../Context/CartContext";
 import toast from "react-hot-toast";
