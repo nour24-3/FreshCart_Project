@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Layout from "./Components/Layout/Layout";
 import Home from "./Components/Home/Home";
@@ -31,7 +31,7 @@ import ResetPassword from "./Components/ResetPassword/ResetPassword";
 
 let query = new QueryClient();
 
-let x = createBrowserRouter([
+let x = createHashRouter([
   {
     path: "",
     element: <Layout />,
